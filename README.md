@@ -40,7 +40,7 @@ A deep study about the HTML Structure.
 
 - **NAV**: Generally we can use to group links for other pages, sites. Besides, it can be even on header or footer, depending of what you're doing.
 
-- **MAIN**: Generally we can use to group links for other pages, sites. Besides, it can be even on header or footer, depending of what you're doing.
+- **MAIN**: It is used to add the main content on the page. We have to make sure the page has only one single main tag.
 
 - **SECTION**: It's a section inside a document and can have a new title composing inside.
 
