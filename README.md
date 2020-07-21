@@ -145,3 +145,134 @@ The bug, in latin <i>Aedes Aegypti</i>.
 ```html
 This <em>isn't</em> an influence.
 ```
+
+## Image Tags
+
+### Figure
+
+```html
+<figure>
+	<img src="cat.png" alt="cat">
+	<figcaption>Fig. 1 - A beautiful cat.</figcaption>
+</figure>
+```
+
+- **FIGURE**: Defines a figure container.
+- **FIGCAPTION**: Defines a figure description.
+- **IMG**: Defines a image on document.
+
+### Picture
+
+```html
+<picture>
+	<source srcset="cat2.png" media="(min-width: 600px)" type="image/png" />
+	<img src="cat1.png" alt="cat" />
+</picture>
+```
+
+- **PICTURE**: It is a container used to specify multiple sources for a unique image.
+- **SOURCE**: Used to specify different sources for some image.
+
+## Multimedia Tags
+
+```html
+<video width="300" height="200" controls>
+	<source src="running.mp4" type="video/mp4" />
+	<source src="running.ogg" type="video/ogg" />
+	<track src="subtitles.vtt" kind="subtitles" srclang="no" label="English"/>
+</video>
+```
+
+- **AUDIO**: Used for sound content.
+- **VIDEO**: Used for video content.
+- **TRACK**: Used for subtitles for the current media being played.
+
+## Integrated Content Tags
+
+- **IFRAME**: Used to incorporate other web documents inside some web document.
+```html
+<iframe></iframe>
+```
+
+- **EMBED**: Used to include pdf plugins and flash.
+```html
+<embed></embed>
+```
+
+## Formulary Tags
+
+### Form
+
+```html
+<form>
+	<fieldset>
+		<legend>Team name</legend>
+
+		<div>
+			<input type="radio" name="team" id="team_1" value="Chelsea" />
+			<label for="team_1">Chelsea</label>
+		</div>
+	</fieldset>
+</form>
+```
+
+- **FORM**: Used to submit data from user.
+- **FIELDSET**: Used to group elements that represent the same idea.
+- **LEGEND**: Explains the fieldset type.
+- **LABEL**: Represents the label of some input.
+
+---
+
+### Input
+
+- **INPUT**: A simple text field.
+```html
+<input id="username" type="text" name="username">
+```
+
+- **TEXTAREA**: A text field with multiple lines.
+```html
+<textarea id="story" name="username" rows="5" cols="33">
+	Once upon a time...
+</textarea>
+```
+
+- **SELECT**: Used to submit selected data from user.
+```html
+<select id="color" name="color">
+	<option value="blue">Blue</option>
+	<option value="red">Red</option>
+</select>
+```
+
+- **BUTTON**: A simple clickable button.
+```html
+<button type="button" onclick="console.log('Hello!')">
+	Hello?
+</button>
+```
+
+## Other Tags
+
+### Summary
+
+```html
+<details>
+	<summary>More details</summary>
+	<p>Here goes the details...</p>
+</details>
+```
+
+- **SUMMARY**: Summary defines a visible header for some detail text.
+- **DETAILS**: Defines a text for some summary.
+
+---
+
+### Output
+
+- **OUTPUT**: Show a result from an user action.
+```html
+<input type="number" name="a" value="10"> +
+<input type="number" name="b" value="5"> =
+<output name="result"></output>
+```
