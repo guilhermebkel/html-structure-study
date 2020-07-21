@@ -1,6 +1,19 @@
 # 📜  Html Structure Study
 A deep study about the HTML Structure.
 
+## Summary
+
+- [ Core Tags ](#core-tags)
+- [ Container Tags ](#container-tags)
+- [ Textual Tags ](#textual-tags)
+- [ Image Tags ](#image-tags)
+- [ Multimedia Tags ](#multimedia-tags)
+- [ Integrated Content Tags ](#integrated-content-tags)
+- [ Formulary Tags ](#formulary-tags)
+- [ Other Tags ](#other-tags)
+
+<a name="core-tags"></a>
+
 ## Core Tags
 ```html
 <!-- BODY -->
@@ -50,6 +63,8 @@ A deep study about the HTML Structure.
 
 - **FOOTER**: Generally used  in the final of the page to describe content and author info.
 
+<a name="container-tags"></a>
+
 ## Container Tags
 
 - **SPAN**: Generic container in line.
@@ -63,6 +78,8 @@ A deep study about the HTML Structure.
 ```
 
 They must be used to group elements for styling and when there's no other element that is semantically for proper use.
+
+<a name="textual-tags"></a>
 
 ## Textual Tags
 
@@ -146,6 +163,8 @@ The bug, in latin <i>Aedes Aegypti</i>.
 This <em>isn't</em> an influence.
 ```
 
+<a name="image-tags"></a>
+
 ## Image Tags
 
 ### Figure
@@ -173,6 +192,8 @@ This <em>isn't</em> an influence.
 - **PICTURE**: It is a container used to specify multiple sources for a unique image.
 - **SOURCE**: Used to specify different sources for some image.
 
+<a name="multimedia-tags"></a>
+
 ## Multimedia Tags
 
 ```html
@@ -187,6 +208,8 @@ This <em>isn't</em> an influence.
 - **VIDEO**: Used for video content.
 - **TRACK**: Used for subtitles for the current media being played.
 
+<a name="integrated-content-tags"></a>
+
 ## Integrated Content Tags
 
 - **IFRAME**: Used to incorporate other web documents inside some web document.
@@ -198,6 +221,8 @@ This <em>isn't</em> an influence.
 ```html
 <embed></embed>
 ```
+
+<a name="formulary-tags"></a>
 
 ## Formulary Tags
 
@@ -251,6 +276,8 @@ This <em>isn't</em> an influence.
 	Hello?
 </button>
 ```
+
+<a name="other-tags"></a>
 
 ## Other Tags
 
